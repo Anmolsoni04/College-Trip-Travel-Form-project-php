@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.container{
+    
+    max-width: 80%;
+    margin: auto;
+    padding: 34px;
+    /* background-color: rgb(255, 217, 127); */
+
+}
+.container h3, p{
+    text-align: center;
+}
+input, textarea {
+    width: 80%;
+    border: 2px solid;
+    margin: 5rem 0rem;
+    padding: 1rem 1rem;
+    margin: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+} 
+
+.itm {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+.fb{   
+    color: red;
+}

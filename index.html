@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITM Trip Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class = "itm" src="itm.png" alt="ITM University Gwalior">
+    <div class="container"> 
+        <h3>Welcome To ITM Gwalior</h3>
+        <p><b>This trip is for visiting Mathura which is a Lord krishna Nagri. All the students have to do register yourself by filling the form and submit it.</b> </p>
+        <!-- <p class = "fb">Bhar na form</p> -->
+        <form action="index.php" method="post" class="form">
+            <input type="text" name = 'name' id = 'name' placeholder="Enter your name here">
+            <input type="email" name = 'email' id = 'email' placeholder="Enter your email here">
+            <input type="phone" name = 'phone' id = 'phone' placeholder="Enter your number here">
+            <textarea name = "others"  id = 'others' rows="10" cols="80" placeholder="Short description"></textarea>
+            <input type="submit" value="Submit" class="btn">
+            <input type="reset" value="Reset" class="btn">
+        </form>   
+    </div>
+    <script src = "index.js"></script>  
+</body>
+</html>
